@@ -1,0 +1,30 @@
+*{
+box-sizing: border-box;
+
+}
+.header{
+font-family: fantasy;
+font-size: medium;
+color: white;
+text-align: center;
+background: radial-gradient(closest-corner circle at 1% 1%, #FFFF00, #FFA500, #0000FF);
+
+}
+
+
+.image{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+
+
+}
+
+.image img{
+width: 50%;
+height: 500px;
+margin-top: 0px;
+padding: 0 0 4px 4px;
+border-radius: 50px;
+}
